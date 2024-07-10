@@ -1,4 +1,3 @@
-# vertexai-mlops-predictive-clv
 An MLOps implementation on GCP using Vertex AI, BigQuery, and TensorFlow for a predictive Customer Lifetime Value (CLV) use case.
 
 ## Objectives
@@ -62,7 +61,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
     --role="roles/aiplatform.user"
 ```
 
-### 3. Clone the lab repository
+### 3. Clone the repository
 
 In your **JupyterLab** instance, open a terminal and clone this repository in the `home` folder.
 ```
